@@ -1,0 +1,7 @@
+{
+  "extends": "./src/.umi/tsconfig.json",
+  "compilerOptions": {    
+    "jsx": "preserve", // 解决ts报错（无法使用 JSX）
+    "moduleResolution": "node",
+  }
+}
